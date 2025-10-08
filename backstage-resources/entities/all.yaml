@@ -14,12 +14,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jkleinlercher
+  name: siddarthbharadwaj02
 spec:
   profile:
-    displayName: jkleinlercher
-    email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    displayName: siddarthbharadwaj02
+    email: siddharthsid533@gmail.com
+    picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
   memberOf: [kubrix]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -31,8 +31,8 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team@kubrix.io
-    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+    email: siddharthsid533@gmail.com
+    picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
   parent: backstage
   children: []
 ---
@@ -42,11 +42,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: guest
+  name: siddarthbharadwaj02
 spec:
   profile:
-    displayName: Guest User
-    email: guest@example.com
+    displayName: siddarthbharadwaj02
+    email: siddharthsid533@gmail.com
   memberOf: [team-a]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -58,8 +58,8 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team-a@example.com
-    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+    email: siddharthsid533@gmail.com
+    picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
   parent: backstage
   children: []
 ---
