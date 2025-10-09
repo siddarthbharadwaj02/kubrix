@@ -151,7 +151,7 @@ backstage:
               schedule:
                 frequency: PT30M
                 timeout: PT3M
-              additionalScopes: ['repo','workflow'] 
+              additionalScopes: ['repo','workflow','user:email'] 
           #guest: {}
           oidc:
             development:
