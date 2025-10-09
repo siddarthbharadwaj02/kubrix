@@ -1,6 +1,5 @@
 # required user for demo environment https://github.com/suxess-it/kubriX/issues/87
 # until user management set up properly
-#update the email test job
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -32,7 +31,7 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: siddharthsid533@gmail.com
+    email: team@kubrix.io
     picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
   parent: backstage
   children: []
