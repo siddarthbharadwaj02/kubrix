@@ -6,20 +6,20 @@ metadata:
   name: siddarthbharadwaj02
 spec:
   profile:
-    displayName: siddarthbharadwaj02
+    displayName: Siddharth Bharadwaj
     email: siddharthsid533@gmail.com
-    picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [kubrix]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: siddarthbharadwaj02
+  name: jkleinlercher
 spec:
   profile:
-    displayName: siddarthbharadwaj02
-    email: siddharthsid533@gmail.com
-    picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
+    displayName: jkleinlercher
+    email: guest@example.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
   memberOf: [kubrix]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -32,7 +32,7 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: team@kubrix.io
-    picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
   parent: backstage
   children: []
 ---
@@ -42,11 +42,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: siddarthbharadwaj02
+  name: guest
 spec:
   profile:
-    displayName: siddarthbharadwaj02
-    email: siddharthsid533@gmail.com
+    displayName: Guest User
+    email: guest@example.com
   memberOf: [team-a]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -58,8 +58,8 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: siddharthsid533@gmail.com
-    picture: https://avatars.githubusercontent.com/u/148954107?s=460&v=4
+    email: team-a@example.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
   parent: backstage
   children: []
 ---
@@ -118,4 +118,3 @@ spec:
     - ./generic/kyverno-info.yaml
     - ./generic/loki-info.yaml
     - ./generic/tempo-info.yaml
-
