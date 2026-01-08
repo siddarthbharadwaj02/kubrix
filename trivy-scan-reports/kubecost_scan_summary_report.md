@@ -1,6 +1,6 @@
 
 <h3>Target <code>alpine/k8s:1.26.9 (alpine 3.18.4)</code></h3>
-<h4>Vulnerabilities (40)</h4>
+<h4>Vulnerabilities (41)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -40,6 +40,13 @@
     <tr>
         <td><code>git</code></td>
         <td>CVE-2024-32004</td>
+        <td>HIGH</td>
+        <td>2.40.1-r0</td>
+        <td>2.40.3-r0</td>
+    </tr>
+    <tr>
+        <td><code>git</code></td>
+        <td>CVE-2024-32021</td>
         <td>HIGH</td>
         <td>2.40.1-r0</td>
         <td>2.40.3-r0</td>
@@ -292,7 +299,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -335,6 +342,13 @@
         <td>HIGH</td>
         <td>2.0.6</td>
         <td>2.6.0</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td>CVE-2026-21441</td>
+        <td>HIGH</td>
+        <td>2.0.6</td>
+        <td>2.6.3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -1768,7 +1782,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1804,6 +1818,20 @@
         <td>HIGH</td>
         <td>2.5.0</td>
         <td>2.6.0</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td>CVE-2026-21441</td>
+        <td>HIGH</td>
+        <td>2.5.0</td>
+        <td>2.6.3</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td>CVE-2026-21441</td>
+        <td>HIGH</td>
+        <td>2.5.0</td>
+        <td>2.6.3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
