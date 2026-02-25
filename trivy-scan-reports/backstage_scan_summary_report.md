@@ -69,7 +69,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (414)</h4>
+<h4>Vulnerabilities (412)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -2614,13 +2614,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-71202</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2026-22984</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -2695,13 +2688,6 @@
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-23126</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.162-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -3259,63 +3245,63 @@
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>3.1.2</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>3.1.2</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>3.1.2</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>3.1.2</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>5.1.6</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>5.1.6</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>7.4.6</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>9.0.5</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>minimatch</code></td>
         <td>CVE-2026-26996</td>
         <td>HIGH</td>
         <td>9.0.5</td>
-        <td>10.2.1</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
     </tr>
     <tr>
         <td><code>multer</code></td>
